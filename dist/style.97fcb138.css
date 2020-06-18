@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+:root {
+  --font-sizesmall: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-image: url(/greenclouds.4f24a90b.jpg);
+  background-size: cover;
+  border: 12px solid;
+  border-image: linear-gradient(90deg, gold, #7a751e) 15;
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-right: 6%;
+  padding-left: 6%;
+  padding-top: 5%;
+}
+
+.illustration__image {
+  border: solid 3px;
+  border-image: linear-gradient(90deg, gold, #7a751e) 15;
+  box-shadow: 5px 5px 5px black;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: large;
+}
+
+.identity__hp {
+  color: red;
+}
+
+.character {
+  border-top: solid black 1px;
+  display: flex;
+  justify-content: space-around;
+  font-size: small;
+}
+
+.character__resist {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  margin-top: 3%;
+}
+
+.attack {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+}
+
+.identity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.identity__general {
+  display: flex;
+  flex-direction: column;
+}
+
+.illustration {
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.illustration__text {
+  background: radial-gradient(gold, #7a751e);
+  margin-top: 2%;
+}
+
+.attack__type {
+  display: flex;
+  margin-right: 10%;
+  width: 100%;
+}
+
+.character__description {
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  border: solid 2px;
+  border-image: linear-gradient(90deg, gold, #7a751e) 15;
+}
+
+.character__description--container {
+  margin-top: -7%;
+}
+
+.attack__damage {
+  font-weight: bold;
+  font-size: x-large;
+  margin-left: 10%;
+  margin-right: 0;
+}
+
+.attack__description {
+  display: block;
+}
+
+.attack__text--misc {
+  font-size: 14px;
+}
+
+.identity__grade {
+  font-size: small;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */

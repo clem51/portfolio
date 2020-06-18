@@ -1,0 +1,36 @@
+@import "reset.css";
+@import "header--animation.scss";
+@import "header.scss";
+@import "presentation.scss";
+@import "projects.scss";
+
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+@font-face {
+  font-family: "Coder's Crux";
+  src: url("../assets/fonts/Coder's\ Crux.ttf") format("ttf");
+}
+body {
+  position: relative;
+  background-color: white;
+}
+h1 {
+  font-family: "Coder's Crux";
+  font-size: 42px;
+}
+h2 {
+  font-family: "Coder's Crux";
+  font-size: 30px;
+}
+p {
+  font-size: 14px;
+  line-height: 18px;
+}
+.dark {
+  filter: invert(1);
+  background-color: black;
+}

@@ -1,0 +1,64 @@
+.hero--header {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.mountain {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 10%;
+}
+.wrapper {
+  display: flex;
+}
+.theme--wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 1%;
+  .theme--dark {
+    color: white;
+    background-color: black;
+    height: 20px;
+    width: 35px;
+    position: relative;
+    margin-right: 2%;
+    box-shadow: inset -2px 1px 1px rgba(255, 255, 255, 0.5);
+    h2 {
+      position: absolute;
+      right: 28%;
+      top: -3px;
+    }
+  }
+  .theme--light {
+    border: 1px solid;
+    height: 20px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.45);
+    h2 {
+      position: absolute;
+      right: 25%;
+      top: -3px;
+    }
+  }
+}
+
+.name--wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  //   margin-top: 5vh;
+}
+.profession--wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-top: auto;
+}

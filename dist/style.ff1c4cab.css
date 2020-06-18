@@ -1,0 +1,519 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.animation--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+}
+
+.animation--wrapper.secondary {
+  position: absolute;
+  top: 90%;
+}
+
+.illustration {
+  width: 50vh;
+}
+
+.hover {
+  animation: hover 5s ease-in-out infinite;
+  animation-fill-mode: forwards;
+}
+
+.number-one {
+  transform: translateY(-10px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-10 4568ms ease-in-out infinite;
+  animation-fill-mode: forwards;
+}
+
+.number-two {
+  transform: translateY(-20px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-20 4851ms ease-in-out infinite;
+  animation-delay: 2287ms;
+  animation-fill-mode: forwards;
+}
+
+.number-three {
+  transform: translateY(-30px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-30 3755ms ease-in-out infinite;
+  animation-delay: 2523ms;
+  animation-fill-mode: forwards;
+}
+
+.number-four {
+  transform: translateY(-50px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-50 3125ms ease-in-out infinite;
+  animation-delay: 2585ms;
+  animation-fill-mode: forwards;
+}
+
+.number-five {
+  transform: translateY(-60px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-60 2567ms ease-in-out infinite;
+  animation-delay: 880ms;
+  animation-fill-mode: forwards;
+}
+
+.number-six {
+  transform: translateY(-70px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-70 4568ms ease-in-out infinite;
+  animation-delay: 3507ms;
+  animation-fill-mode: forwards;
+}
+
+.number-seven {
+  transform: translateY(-80px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-80 2666ms ease-in-out infinite;
+  animation-delay: 4048ms;
+  animation-fill-mode: forwards;
+}
+
+.number-eight {
+  transform: translateY(-90px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-90 2544ms ease-in-out infinite;
+  animation-delay: 5823ms;
+  animation-fill-mode: forwards;
+}
+
+.number-nine {
+  transform: translateY(-100px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-100 3940ms ease-in-out infinite;
+  animation-delay: 4926ms;
+  animation-fill-mode: forwards;
+}
+
+.number-ten {
+  transform: translateY(-110px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-110 3018ms ease-in-out infinite;
+  animation-delay: 5975ms;
+  animation-fill-mode: forwards;
+}
+
+.number-eleven {
+  transform: translateY(-120px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-120 3896ms ease-in-out infinite;
+  animation-delay: 2043ms;
+  animation-fill-mode: forwards;
+}
+
+.number-twelve {
+  transform: translateY(-150px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-150 3959ms ease-in-out infinite;
+  animation-delay: 1513ms;
+  animation-fill-mode: forwards;
+}
+
+.number-thirteen {
+  transform: translateY(-160px) translateZ(0);
+  opacity: 0;
+  animation: fadeNumberDown-160 5704ms ease-in-out infinite;
+  animation-delay: 1047ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hover {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-3px);
+  }
+  75% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes fadeNumberDown-10 {
+  0% {
+    transform: translateY(-10px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(140px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-20 {
+  0% {
+    transform: translateY(-20px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(140px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-30 {
+  0% {
+    transform: translateY(-30px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(130px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-50 {
+  0% {
+    transform: translateY(-50px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(110px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-60 {
+  0% {
+    transform: translateY(-60px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(90px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-70 {
+  0% {
+    transform: translateY(-70px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(80px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-80 {
+  0% {
+    transform: translateY(-80px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(80px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-90 {
+  0% {
+    transform: translateY(-90px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(60px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-100 {
+  0% {
+    transform: translateY(-100px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(60px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-110 {
+  0% {
+    transform: translateY(-110px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(30px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-120 {
+  0% {
+    transform: translateY(-120px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(20px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-150 {
+  0% {
+    transform: translateY(-150px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(10px) translateZ(0);
+    opacity: 0;
+  }
+}
+@keyframes fadeNumberDown-160 {
+  0% {
+    transform: translateY(-160px) translateZ(0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(10px) translateZ(0);
+    opacity: 0;
+  }
+}
+.hero--header {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.mountain {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 10%;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.theme--wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 1%;
+}
+.theme--wrapper .theme--dark {
+  color: white;
+  background-color: black;
+  height: 20px;
+  width: 35px;
+  position: relative;
+  margin-right: 2%;
+  box-shadow: inset -2px 1px 1px rgba(255, 255, 255, 0.5);
+}
+.theme--wrapper .theme--dark h2 {
+  position: absolute;
+  right: 28%;
+  top: -3px;
+}
+.theme--wrapper .theme--light {
+  border: 1px solid;
+  height: 20px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.45);
+}
+.theme--wrapper .theme--light h2 {
+  position: absolute;
+  right: 25%;
+  top: -3px;
+}
+
+.name--wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.profession--wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-top: auto;
+}
+
+.presentation {
+  display: flex;
+  margin-top: 20%;
+  position: relative;
+}
+.presentation img {
+  position: absolute;
+  left: -15%;
+  height: 100%;
+}
+.presentation .text--wrapper {
+  margin-left: 35%;
+}
+
+.projects {
+  margin: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Coder's Crux";
+  src: url("/Coder's Crux.40358f6c.ttf") format("ttf");
+}
+body {
+  position: relative;
+  background-color: white;
+}
+
+h1 {
+  font-family: "Coder's Crux";
+  font-size: 42px;
+}
+
+h2 {
+  font-family: "Coder's Crux";
+  font-size: 30px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.dark {
+  filter: invert(1);
+  background-color: black;
+}
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */
